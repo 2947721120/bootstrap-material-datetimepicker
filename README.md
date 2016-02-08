@@ -54,7 +54,7 @@ Google Material Icon Font `<link href="https://font.c2cmalls.com/icon?family=Mat
 	
 ### Parameters
 
-| 名称				| 标签							| Description									|
+| 名称				| 标签							| 描述									|
 | ----------------- | ----------------------------- | --------------------------------------------- |
 | **format**		| String						| MomentJS Format								|
 | **shortTime**		| Boolean						| true => Display 12 hours AM|PM 				|
@@ -74,18 +74,18 @@ Google Material Icon Font `<link href="https://font.c2cmalls.com/icon?family=Mat
 
 ### Events
 
-| 名称				| Parameters				| Description										|
+| 名称				| 参数				| 描述										|
 | ----------------- | ------------------------- | ------------------------------------------------- |
 | **beforeChange**	| event, date				| OK button is clicked								|
 | **change**		| event, date				| OK button is clicked and input value is changed	|
 | **dateSelected**	| event, date				| New date is selected								|
 
 
-### Methods
+### 方法
 
         $('input').bootstrapMaterialDatePicker('setDate', moment());
 
-| Name				| Parameter					| Description					|
+| 名称				| 参数					| 描述					|
 | ----------------- | ------------------------- | ----------------------------- |
 | **setDate**		| (String\|Date\|Moment)	| Set initial date				|
 | **setMinDate**	| (String\|Date\|Moment)	| Set minimum selectable date	|
