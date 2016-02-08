@@ -1,11 +1,11 @@
 # bootstrap-material-datetimepicker
-Material DateTimePicker 
+材料设计的日期/时间选择
 
-Originaly designed for Bootstrap Material, the V2.0 is now completely standalone and responsive.
+渊源设计为引导材质，V2.0现在完全独立的，反应灵敏。
 
-### Updates
-
-| Date				| Author			| Description											 |
+### 更新
+	
+| 日期				| 作者			| 	描述									 |
 | ----------------- | ----------------- | ------------------------------------------------------ |
 | 2016-02-04		| T00rk				| Added a "Now" button (#38)	 					 	 |
 | 2016-01-30		| T00rk				| Switch view on click (#39, #47)	 					 |
@@ -37,10 +37,10 @@ jquery [http://jquery.com/download/](http://jquery.com/download/)
 
 momentjs [http://momentjs.com/](http://momentjs.com/)
 
-Google Material Icon Font `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">`
+Google Material Icon Font `<link href="https://font.c2cmalls.com/icon?family=Material+Icons" rel="stylesheet">`
 
 
-### Live Example
+### 演示
 
 [Live example](http://t00rk.github.io/bootstrap-material-datetimepicker/)
 
@@ -54,7 +54,7 @@ Google Material Icon Font `<link href="https://fonts.googleapis.com/icon?family=
 	
 ### Parameters
 
-| Name				| Type							| Description									|
+| 名称				| 标签							| Description									|
 | ----------------- | ----------------------------- | --------------------------------------------- |
 | **format**		| String						| MomentJS Format								|
 | **shortTime**		| Boolean						| true => Display 12 hours AM|PM 				|
@@ -74,7 +74,7 @@ Google Material Icon Font `<link href="https://fonts.googleapis.com/icon?family=
 
 ### Events
 
-| Name				| Parameters				| Description										|
+| 名称				| Parameters				| Description										|
 | ----------------- | ------------------------- | ------------------------------------------------- |
 | **beforeChange**	| event, date				| OK button is clicked								|
 | **change**		| event, date				| OK button is clicked and input value is changed	|
